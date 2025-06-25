@@ -385,13 +385,14 @@ textarea{
        display: none;
     }
     .main{
-        height: 740px;
+        height: 720px;
         display: flex;
         flex-direction: column-reverse;
     }
     .insure-img{
         position: absolute;
         width: 100%;
+        top: 0;
     }
     h2{
         font-size: xx-large;
