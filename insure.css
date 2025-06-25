@@ -151,6 +151,7 @@ p{
 .wall button{
     padding: 1% 4%;
     font-weight: bold;
+    color: orangered;
     border: none;
 }
 button{
@@ -467,10 +468,11 @@ textarea{
         background-color: orangered;
     }
     .testimonial-container{
-        gap: 2rem;
+        gap: 10px;
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        padding: 3rem;
-        
+        padding: 3rem 1rem;
+        scrollbar-color: transparent transparent;
+        scrollbar-width: thin;
     }
     .testimonial-card{
         width: 200px;
@@ -616,5 +618,9 @@ textarea{
     }
     #close{
         display: none;
+    }
+    button:hover{
+        transform: none;
+        animation: none;
     }
 }
