@@ -84,9 +84,9 @@ nav button{
     box-shadow: 0 0 4px ;
 }
 .insure-img{
-    width: 35%;
+    width: 550px;
     position: absolute;
-    right: 10%;
+    right: 140px;
     top: 20%;
     animation: appear 800ms ease-in-out;
 }
