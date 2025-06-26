@@ -64,7 +64,7 @@ nav button{
 .text{
     position: absolute;
     right: 55%;
-    animation: appear-right 3s ease-in-out forwards;
+    animation: appear-right 1s ease-in-out forwards;
 }
 @keyframes appear-right {
     0% {
@@ -86,8 +86,8 @@ nav button{
 .insure-img{
     width: 35%;
     position: absolute;
-    right: 7.5%;
-    top: 30%;
+    right: 10%;
+    top: 20%;
     animation: appear 800ms ease-in-out;
 }
 @keyframes appear {
